@@ -1,0 +1,215 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#MainTotal {
+ /*   background-color: red;*/
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#InMain {
+    margin: 20px;
+    height: auto;
+  /*  background-color: blue;*/
+    border-radius: 7px;
+    display: flex;
+}
+
+#RightForm {
+   /* background-color: aqua;*/
+    width: 30%;
+    float: left;
+    margin-right: 7px;
+}
+
+#LeftForm {
+   /* background-color: pink;*/
+    width: 70%;
+    float: right;
+    margin: 0 0 18px 0;
+    margin-left: 12px;
+}
+
+.boxshadow {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+#avatar_hat {
+    width: 100%;
+}
+
+#MyInformation {
+    margin: 20px;
+}
+
+#MyName {
+    top: -44px;
+    padding: 0 25px 0 25px;
+    font-size: 35px;
+    margin-top: -60px;
+}
+
+.fa {
+    color: #009688;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.iconContact {
+    margin: 0 22px 0 0;
+    float: left;
+}
+
+.textContact {
+    color: #757575 !important;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.TextHederSkills {
+    color: #757575 !important;
+    font-size: 18px !important;
+}
+
+#ulliInformation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ProgressBarMain {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.ProgressBarLenght {
+    text-align: center;
+    color: white;
+    background-color: #009688;
+    border-radius: 10px;
+}
+
+
+.LeftBox {
+    width: 100%;
+  /*   background: #004e4e;*/
+    min-height: 50%;
+    margin-bottom: 9px;
+    display: inline-block;
+}
+
+.TextHeder i {
+    margin-right: 25px;
+    float: left;
+    font-size: 36px !important;
+}
+
+.TextHeder p {
+    font-size: 36px !important;
+}
+
+.TextHeder {
+    margin: -10px 25px;
+}
+
+.MoreInformation {
+    margin: auto;
+    width: 95%;
+}
+
+.Current {
+    margin: 17px 0;
+    background-color: #009688;
+    color: white !important;
+    border-radius: 6px;
+    padding: 0 5px;
+}
+
+.FromDate, .ToDate, .LineBetweenDates {
+    float: left;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.LineBetweenDates {
+    padding: 0 7px;
+    float: left;
+}
+
+.NameWork {
+    margin: 0;
+    font-size: 18px;
+}
+
+.IconDate {
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+.DAboutWork {
+    display: inline-block;
+    width: 100%;
+}
+
+.Date > p {
+    color: #009688;
+}
+
+
+#Footer {
+    text-align: center;
+    height: 20px;
+    background-color: yellow;
+    width: 100%;
+    padding: 20px 0 0 0;
+    color: white;
+    background-color: #009688;
+}
+
+    #Footer a {
+        color: white;
+        width: 100%;
+        display: block;
+        background: yellow;
+        padding: 0 0 25px 0;
+        background-color: #009688;
+    }
+
+#SocialNetworks i {
+    margin: 1px;
+    color: white;
+}
+
+#Footer p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #009688;
+}
+
+#SocialNetworks {
+    color: white;
+    background-color: yellow;
+    padding: 15px;
+    background-color: #009688;
+}
+
+.w3-hover-opacity:hover {
+    color: #bcbcbc !important;
+    cursor: pointer;
+}
